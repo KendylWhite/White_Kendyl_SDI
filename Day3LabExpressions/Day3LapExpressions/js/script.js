@@ -6,8 +6,8 @@ Day 3 Lab
 
 //Slice of pie part 1
 var slicesPerPizza = 8;
-var peopleAtTheParty = 22;
-var pizzasOrdered = 11;
+var peopleAtTheParty = 10;
+var pizzasOrdered = 4;
 
 //multiply slices per pizza * pizzas ordered / people at the party
 var numberOfSlicesPerPerson = slicesPerPizza * pizzasOrdered / peopleAtTheParty
