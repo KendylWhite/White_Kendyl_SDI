@@ -14,3 +14,9 @@ var numberOfSlicesPerPerson = slicesPerPizza * pizzasOrdered / peopleAtTheParty
 console.log("Each person ate " + numberOfSlicesPerPerson + " slices of pizza at the party.");
 
 
+//Slice of pie part II
+var totalSlices = slicesPerPizza * pizzasOrdered;
+var sparkySlices = totalSlices % peopleAtTheParty
+console.log("Sparky	got " + sparkySlices + " slices of pizza.");
+
+
