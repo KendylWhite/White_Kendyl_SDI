@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e96451-c3ff-44b0-b27d-1cc0db682996" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/White_Kendyl_SDI.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day3/day3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day3/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/FirstFlowChart.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/MyDogBuying.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/facebookLogin.graphml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/facebookLogin.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/shoeBuying.graphml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/shoeBuying.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/js/script.js" afterPath="$PROJECT_DIR$/Day3/js/script.js" />
     </list>
     <ignored path="White_Kendyl_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day3/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5298507" vertical-offset="845" max-vertical-offset="1545">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.8880597" vertical-offset="1175" max-vertical-offset="1890">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -280,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5298507" vertical-offset="845" max-vertical-offset="1545">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.8880597" vertical-offset="1175" max-vertical-offset="1890">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
