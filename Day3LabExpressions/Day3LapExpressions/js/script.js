@@ -20,3 +20,11 @@ var sparkySlices = totalSlices % peopleAtTheParty
 console.log("Sparky	got " + sparkySlices + " slices of pizza.");
 
 
+//Average shopping bill
+var week1 = 106;
+var week2 = 30;
+var week3 = 66;
+var week4 = 22;
+var week5 = 96;
+
+//
