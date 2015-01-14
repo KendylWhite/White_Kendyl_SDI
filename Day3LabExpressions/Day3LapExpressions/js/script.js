@@ -27,4 +27,7 @@ var week3 = 66;
 var week4 = 22;
 var week5 = 96;
 
-//
+//Total amount spent and average per week spent on groceries
+var totalGroceryPrice = week1 + week2 + week3 + week4 + week5
+var averageGroceryPrice = totalGroceryPrice/5
+console.log("You have spent a total of $" + totalGroceryPrice + " on groceries over 5 weeks. That is an average of $" + averageGroceryPrice + " per week.");
