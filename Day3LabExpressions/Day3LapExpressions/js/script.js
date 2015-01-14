@@ -31,3 +31,13 @@ var week5 = 96;
 var totalGroceryPrice = week1 + week2 + week3 + week4 + week5
 var averageGroceryPrice = totalGroceryPrice/5
 console.log("You have spent a total of $" + totalGroceryPrice + " on groceries over 5 weeks. That is an average of $" + averageGroceryPrice + " per week.");
+
+//Discounts
+var originalPrice = 20
+var discountPercentage = .50
+var salesTaxPercentage = .10
+
+//Price of the item with and without tax
+var priceWithoutTax = originalPrice * discountPercentage;
+var priceWithTax = priceWithoutTax * salesTaxPercentage + priceWithoutTax;
+console.log("Your shirt was originally $" + originalPrice + ", but after a " + discountPercentage + "% discount, it is now $" + priceWithoutTax + " without tax and $" + priceWithTax + " with tax.");
