@@ -17,9 +17,14 @@ Expressions Assignment
 
 //Using Assignment Operators
  var baseOfPyramid = length * width;
- var preVolume = baseOfPyramid *= length;
+ var preVolume = baseOfPyramid *= height;
 
 //The Final Volume of the Pyramid
  var volumeOfPyramid = preVolume /= 3;
  console.log("The volume of your pyramid with a " + volume[0] + " of " + length + ", a " + volume[1] + " of " + width + ", and a " + volume[2] + " of " + height + " is " + volumeOfPyramid + ". Now apply your cubic unit if you have one.");
 
+//Testing
+ //First test, I typed in 6, 6, and 6 and received a volume of 72.
+ //Second test, I typed in 3, 6, and 9 and received a volume of 54.
+ //Third and final test, I typed in 5, 5, 10 and received a volume of 83.33.
+ 
