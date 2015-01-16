@@ -19,6 +19,8 @@ Conditionals
 
  if(condition to test){
  Code to run if the condition is true
+ } else{
+ Code to run if the condition is false
  }
 
   */
@@ -34,20 +36,70 @@ Conditionals
  //Relational Expression
 
  //If the kid is over 48" tall, then he can ride
- var kidHeight = 30;
+ var kidHeight = 47;
 
  //Create variable for minimum kid height
  var minHeight = 48;
 
- if(kidHeight>minHeight){
+ //Create a variable for a shoe lift
+ var shoeLift = 2;
+ //Is the child tall enough with shoe lift?
+
+ if(kidHeight + shoeLift > minHeight){
 
   console.log("You are tall enough to ride!");
-  
+
  } else{
   //This code will run if the test is false!
   console.log("Sorry, you are too short!");
 
  }
+
+
+
+//What ride can the kid go on based on his height?
+//if the kid is 48 + then Space Mountain
+//If 40+ then Buzz Lightyear Ride
+//Anything short - Winnie The Pooh
+
+ var childHeight = 42;
+
+ if(childHeight >= 48){
+
+  console.log("You can ride Space Mountain. Buzz Lightyear and Winnie The Pooh!");
+
+ } else if(childHeight >= 40){
+
+  console.log("You can ride Buzz Lightyear and Winnie The Pooh!");
+
+ } else{
+
+  console.log("You can only ride Winnie The Pooh!");
+
+ }
+
+
+ /*
+ If, else if, else statement
+
+ if(conditional to test){
+
+ Code to run if conditional is true.
+
+ } else if(condition2 to test) {
+
+ Condition2 will only be testing if conditional is false!
+
+ Code to run if condition2 is true
+
+ } else {
+
+ Code to run if conditional & condition are false
+
+ }
+
+
+  */
 
 
 
