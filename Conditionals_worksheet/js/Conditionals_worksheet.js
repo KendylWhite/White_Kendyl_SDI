@@ -51,4 +51,9 @@ Conditionals Worksheet
  }else if (studentGrade >= 0 && studentGrade <= 69){
   console.log("You have earned a " + studentGrade + "%, which means you have earned an F in the class!")
  }
+
+ //Movie Ticker Price
+ var age = 18;
+ var time = 4;
+
  
