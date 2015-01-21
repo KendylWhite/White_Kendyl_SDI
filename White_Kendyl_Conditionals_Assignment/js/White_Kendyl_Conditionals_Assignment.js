@@ -26,5 +26,15 @@ Conditionals Assignment
     console.log("Our favorite parks are too busy. There's a total of " + disneyTotal + " people in them. Let's go home and try again another day.");
  }
  
- //Riding rides
+ //Activities
+ var age = parseInt(prompt("How old are you?"));
+ var activity;
+
+ //If the guest is 12 and under - kid rides 
+ //If guest is from 13 to 54 - adult rides
+ //If the guest is 55 or older - just watch the fireworks
+
+ var activity = (age <= 12 ) ? "You can only ride kid rides." : (age < 55) ? "You can do whatever you want! Enjoy Disney World!" : "Just have fun and watch the fireworks at the end of the day.";
+
+console.log(activity);
  
