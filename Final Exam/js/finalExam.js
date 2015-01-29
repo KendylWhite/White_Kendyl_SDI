@@ -10,6 +10,12 @@ Final Exam WPF
 //Prompt the user the cost of the item.
 var price = prompt("I see that you're trying to buy something and you want the discounted price. \nWhat is the cost of the item:");
 while(price === "" || isNaN(price)){
- var price = prompt("Please don't leave blank and only use numbers. \nWhat is the cost of the item:");
+ var price = prompt("Please do not leave blank and only use numbers. \nWhat is the cost of the item:");
+}
+
+//Prompt the user the discount %.
+var discount = prompt("Now that we have the price, what is the discount %? \nThis number should be between 0 and 100:");
+while(discount === "" || isNaN(discount)){
+ var discount = prompt("Please do not leave blank and only use numbers. \nWhat is the discount %? This number should be between 0 and 100:");
 }
 
