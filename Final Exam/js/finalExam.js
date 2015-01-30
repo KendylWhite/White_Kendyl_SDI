@@ -21,7 +21,7 @@ while(discount === "" || isNaN(discount)){
 
 //Create a function that will calculate the discounted cost of a product.
 //Use the cost and discount as parameters
-function calcCost(p, d){
+function cost(p, d){
  //Equation
  var discountedPrice = p * (d/100);
  //Discounted Price
@@ -29,3 +29,8 @@ function calcCost(p, d){
  //Return the discounted price
  return totalPrice;
 }
+
+//Function Call
+var returnedCost = cost(price, discount);
+//Console.log
+console.log("The final cost of an item that costs $" + price + " with a discount of " + discount + "% is $" + returnedCost + ".")
