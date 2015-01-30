@@ -19,3 +19,13 @@ while(discount === "" || isNaN(discount)){
  var discount = prompt("Please do not leave blank and only use numbers. \nWhat is the discount %? This number should be between 0 and 100:");
 }
 
+//Create a function that will calculate the discounted cost of a product.
+//Use the cost and discount as parameters
+function calcCost(p, d){
+ //Equation
+ var discountedPrice = p * (d/100);
+ //Discounted Price
+ var totalPrice = price - discountedPrice;
+ //Return the discounted price
+ return totalPrice;
+}
