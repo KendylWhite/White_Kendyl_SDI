@@ -34,3 +34,8 @@ function cost(p, d){
 var returnedCost = cost(price, discount);
 //Console.log
 console.log("The final cost of an item that costs $" + price + " with a discount of " + discount + "% is $" + returnedCost + ".")
+
+//Tests
+//I typed in 50 & 20 and got 40.
+//I typed in 30 & 40 and got 18.
+//I typed in 2500 & 10 and got 2250.
